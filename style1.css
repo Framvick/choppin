@@ -1,0 +1,100 @@
+#animate {
+    animation: bgfade 20s infinite; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-color: #000;
+    position: relative;
+    box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.4);
+}
+
+@keyframes bgfade {
+    0% {
+        background-image: url(1st\ img.webp);
+    }
+    25% {
+        background-image: url(2nd\ img.webp);
+    }
+    50% {
+        background-image: url(3rd\ img.jpg);
+    }
+    75% {
+        background-image: url(4th\ img.jpg);
+    }
+    100% {
+        background-image: url(5th\ img.webp);
+    }
+
+}
+#backclr {
+    background-color: rgb(80, 248, 231);
+    background-size: cover;
+    background-position: center;
+}
+#backclr2 {
+    background-color: rgb(25, 25, 25);
+    background-size: cover;
+    background-position: center;
+}
+#aboutback {
+    background-image: url(about.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.7);
+}
+#logimg {
+    background-image: url(logpic.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.4);
+}
+/* #animated-background:before {
+    content:"";
+    
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:black;
+    opacity:0.3; 
+}
+/* #animated-background{
+    animation: bgfade 15s infinite;
+    background-size:cover;
+    background-position:center;
+    background-color:#000;
+    position:relative;
+    }
+    
+    @keyframes bgfade {
+    0% {
+    background-image: url(https://picsum.photos/1200/800?image=1074);
+    }
+    25% {
+    background-image: url(https://picsum.photos/1200/800?image=1070);
+    }
+    50% {
+    background-image: url(https://picsum.photos/1200/800?image=1071);
+    }
+    75% {
+    background-image: url(https://picsum.photos/1200/800?image=1072);
+    }
+    100% {
+    background-image: url(https://picsum.photos/1200/800?image=1074);
+    }
+    }
+    
+
+    #animated-background:before {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:black;
+    opacity:0.3;
+    } */
+#hov:hover {
+    color:  #006cee;
+}
